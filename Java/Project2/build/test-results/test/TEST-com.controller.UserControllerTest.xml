@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.controller.UserControllerTest" tests="13" skipped="0" failures="0" errors="0" timestamp="2021-04-23T06:35:07" hostname="SULIMAN" time="0.279">
+  <properties/>
+  <testcase name="getUserByUsername()" classname="com.controller.UserControllerTest" time="0.048"/>
+  <testcase name="logout()" classname="com.controller.UserControllerTest" time="0.11"/>
+  <testcase name="getUserByUserAndPass()" classname="com.controller.UserControllerTest" time="0.004"/>
+  <testcase name="insertNewUserFail()" classname="com.controller.UserControllerTest" time="0.021"/>
+  <testcase name="getAllUsers()" classname="com.controller.UserControllerTest" time="0.007"/>
+  <testcase name="updateUser()" classname="com.controller.UserControllerTest" time="0.01"/>
+  <testcase name="login()" classname="com.controller.UserControllerTest" time="0.011"/>
+  <testcase name="insertNewUserSuccess()" classname="com.controller.UserControllerTest" time="0.003"/>
+  <testcase name="getLoggedInUserFail()" classname="com.controller.UserControllerTest" time="0.003"/>
+  <testcase name="updateUserFail()" classname="com.controller.UserControllerTest" time="0.006"/>
+  <testcase name="getLoggedInUser()" classname="com.controller.UserControllerTest" time="0.015"/>
+  <testcase name="deleteUser()" classname="com.controller.UserControllerTest" time="0.004"/>
+  <testcase name="getUserById()" classname="com.controller.UserControllerTest" time="0.008"/>
+  <system-out><![CDATA[User{userId=2, username='dani3', password='apple', emailAddress='ghost_girl@yahoo.com', profilePic='', description='I like ghost dogs', firstName='Danielle', lastName='Fantoni', posts=0, likes=0}
+]]></system-out>
+  <system-err><![CDATA[[Test worker] INFO org.springframework.test.context.web.WebTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+[Test worker] INFO org.springframework.test.context.web.WebTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@5e5dcd7c, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@42ed79bf, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@5267f37c, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@707ea326, org.springframework.test.context.support.DirtiesContextTestExecutionListener@4078b678, org.springframework.test.context.transaction.TransactionalTestExecutionListener@69f11f49, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@460ed18, org.springframework.test.context.event.EventPublishingTestExecutionListener@1820921]
+]]></system-err>
+</testsuite>
